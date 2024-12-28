@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://i.postimg.cc/7ZBC9CGq/bc87e75149c797961d7cf2ddf09523e0.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.quote {
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: pink;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: hotpink;
+}
+
+#result {
+    margin: 20px 0;
+}
+
+.hidden {
+    display: none;
+}
